@@ -1,0 +1,27 @@
+# INTRODUÇÃO A LISTA (LIST)
+# PODE TER VARIAS CLASSES (BOOL, STR, INT, LIST, FLOAT ...)
+# LISTA É UM TIPO MUTAVEL, POIS PODEMOS ALTERAR VALORES DENTRO DELA
+# EXISTEM DUAS MANEIRAS DE CRIAR LISTA, USANDO O list() OU O MAIS COMUM USANDO COLCHETER []
+
+list_01 = list([23, 2.3, True, False, 'Felipe Andrade', []])
+list_02 = [23, 2.3, True, False, 'Felipe Andrade', []]
+
+# CADA ITEM DA LISTA TEM UM INDICE IGUAL NAS STRINGS - ONDE PODEMOS ACESSAR
+
+print(list_01)
+print(list_02)
+
+print(list_01[4])
+print(list_02[-2])
+
+# PODEMOS IMPRIMIR O TYPE DA LISTA E DE UM ITEM, PARA PROVAR QUE PODEM TER CLASSES DIFERENTES
+
+print(type(list_01), type(list_01[4]))
+
+# E, PODEMOS ALTERAR ALGUM VALOR DENTRO DA LISTA
+
+list_01[4] = 'Joaquina'
+
+print(list_01)
+print(list_01[4])
+

@@ -1,0 +1,8 @@
+Hello World! Tudo certo? 
+
+Vamos começar a codificar!
+Esse código é um exemplo de como contar dados em uma lista e, mudar a cor: 
+
+from termcolor import colored
+
+fruit_list = ['Maçã', 'Morango', 'Maçã', 'Maçã', 'Banana', 'Abacate', 'Morango']
